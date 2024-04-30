@@ -103,6 +103,12 @@
         <Setter Property="Padding" Value="10 5"/>
         <Setter Property="FontFamily"
     Value="/Fonts/#Rubik" />
+        <Setter Property="VerticalAlignment" Value="Bottom"/>
+        <Setter Property="HorizontalAlignment" Value="Right"/>
+        <Setter Property="Width" Value="150"/>
+        <Setter Property="Height" Value="30"/>
+        <Setter Property="Content" Value="Выход"/>
+        <Setter Property="Margin" Value="10"/>
         <Setter Property="FontSize" Value="14"/>
         <Setter Property="Cursor" Value="Hand"/>
         <Setter Property="Template">
@@ -137,11 +143,13 @@
         <Setter Property="Padding" Value="10 5"/>
         <Setter Property="FontFamily"
     Value="/Fonts/#Rubik" />
-        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="FontSize" Value="16"/>
         <Setter Property="Cursor" Value="Hand"/>
         <Setter Property="Template">
             <Setter.Value>
-                <ControlTemplate TargetType="Button">
+                <ControlTemplate TargetType="RadioButton">
                     <Border Background="{TemplateBinding Background}"
                     CornerRadius="5">
                         <ContentPresenter HorizontalAlignment="Center"
