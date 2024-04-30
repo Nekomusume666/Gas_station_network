@@ -1,0 +1,10 @@
+C:\Users\Максим\ваня\Gas_station_network\obj\Debug\net7.0-windows\Gas_station_network.csproj.AssemblyReference.cache
+C:\Users\Максим\ваня\Gas_station_network\obj\Debug\net7.0-windows\Styles\ButtonTheme.baml
+C:\Users\Максим\ваня\Gas_station_network\obj\Debug\net7.0-windows\Styles\Text.baml
+C:\Users\Максим\ваня\Gas_station_network\obj\Debug\net7.0-windows\Styles\TextBoxTheme.baml
+C:\Users\Максим\ваня\Gas_station_network\obj\Debug\net7.0-windows\View\MainWindow.g.cs
+C:\Users\Максим\ваня\Gas_station_network\obj\Debug\net7.0-windows\View\SelectionSheetWindow.g.cs
+C:\Users\Максим\ваня\Gas_station_network\obj\Debug\net7.0-windows\View\TechnicianWindow.g.cs
+C:\Users\Максим\ваня\Gas_station_network\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\Максим\ваня\Gas_station_network\obj\Debug\net7.0-windows\Gas_station_network_MarkupCompile.cache
+C:\Users\Максим\ваня\Gas_station_network\obj\Debug\net7.0-windows\Gas_station_network_MarkupCompile.lref
