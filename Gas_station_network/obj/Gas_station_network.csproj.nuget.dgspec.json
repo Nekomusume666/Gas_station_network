@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\source\\repos\\Gas_station_network\\Gas_station_network\\Gas_station_network.csproj": {}
+    "C:\\Users\\Admin\\source\\repos\\Shibanov\\Gas_station_network\\Gas_station_network\\Gas_station_network.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\source\\repos\\Gas_station_network\\Gas_station_network\\Gas_station_network.csproj": {
+    "C:\\Users\\Admin\\source\\repos\\Shibanov\\Gas_station_network\\Gas_station_network\\Gas_station_network.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\Gas_station_network\\Gas_station_network\\Gas_station_network.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\Shibanov\\Gas_station_network\\Gas_station_network\\Gas_station_network.csproj",
         "projectName": "Gas_station_network",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\Gas_station_network\\Gas_station_network\\Gas_station_network.csproj",
+        "projectPath": "C:\\Users\\Admin\\source\\repos\\Shibanov\\Gas_station_network\\Gas_station_network\\Gas_station_network.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\source\\repos\\Gas_station_network\\Gas_station_network\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\source\\repos\\Shibanov\\Gas_station_network\\Gas_station_network\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
