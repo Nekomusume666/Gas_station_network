@@ -53,7 +53,7 @@ namespace Gas_station_network.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Gas_station_network;component/view/selectionsheetwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Gas_station_network;V1.0.0.0;component/view/selectionsheetwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\View\SelectionSheetWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

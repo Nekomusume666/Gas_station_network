@@ -1,4 +1,6 @@
-﻿namespace Gas_station_network.Model;
+﻿using Gas_station_network.DataBase;
+
+namespace Gas_station_network.Model;
 
 /// <summary>
 /// Класс, представляющий пользователей.
