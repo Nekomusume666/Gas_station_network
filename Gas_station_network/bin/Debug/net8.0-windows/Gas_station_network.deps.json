@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Gas_station_network/1.0.0": {
+        "runtime": {
+          "Gas_station_network.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Gas_station_network/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
