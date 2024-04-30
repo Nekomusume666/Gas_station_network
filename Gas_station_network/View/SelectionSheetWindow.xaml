@@ -5,8 +5,49 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Gas_station_network.View"
         mc:Ignorable="d"
-        Title="SelectionSheetWindow" Height="450" Width="800">
+        Title="Сеть АЗC (Выбор АЗС)" Height="600" Width="1000"
+        WindowStyle="SingleBorderWindow"
+        ResizeMode="NoResize"
+        WindowStartupLocation="Manual">
     <Grid>
-        
+        <Border Background="#272537"/>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"></RowDefinition>
+                <RowDefinition Height="10*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Row="0"
+                       Margin="0 50 0 0"
+                       Text="Выберите АЗС из списка:"
+                       Style="{StaticResource Title}"
+            />
+
+            <ItemsControl ItemsSource="{Binding GasStations}"
+                          Grid.Row="1">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <!-- Шаблон для кнопки -->
+                        <Button Grid.Row="1"
+                        Width="400"
+                        Height="40"
+                        Content="{Binding}"
+                        Click="Button_Click"
+                        Margin="5"
+                        Style="{StaticResource SelectionButton}"/>      
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
+            <Button Grid.Row="1"
+                            VerticalAlignment="Bottom"
+                            HorizontalAlignment="Right"
+                            Width="150"
+                            Height="30"
+                            Content="Выход"
+                            Margin="10"
+                            Style="{StaticResource ExitButton}"/>
+        </Grid>
     </Grid>
 </Window>

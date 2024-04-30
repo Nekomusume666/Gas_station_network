@@ -22,10 +22,5 @@ namespace Gas_station_network
             
         }
 
-        private void titleBar_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            this.DragMove();
-        }
-
     }
 }
