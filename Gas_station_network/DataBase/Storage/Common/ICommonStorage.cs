@@ -32,4 +32,10 @@ interface ICommonStorage
     /// <param name="adress">Адрес.</param>
     /// <returns>Информация об АЗС.</returns>
     public GasStation? TakeGasStationByAdress(string adress);
+
+    /// <summary>
+    /// Добавить пользователя.
+    /// </summary>
+    /// <param name="person">Пользователь.</param>
+    public void AddPerson(Person person);
 }

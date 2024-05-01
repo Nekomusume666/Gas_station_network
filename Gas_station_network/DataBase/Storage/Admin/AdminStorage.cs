@@ -10,20 +10,6 @@ namespace Gas_station_network.DataBase.Storage.Admin;
 internal class AdminStorage : IAdminStorage
 {
     /// <summary>
-    /// Добавить сотрудника.
-    /// </summary>
-    /// <param name="person">Сотрудник.</param>
-    public void AddPerson(Person person)
-    {
-        using (var context = new PersonDbContext())
-        {
-            var entity = context.Add(person);
-
-            context.SaveChanges();
-        }
-    }
-
-    /// <summary>
     /// Удалить сотрудника по логину.
     /// </summary>
     /// <param name="login">Логин.</param>

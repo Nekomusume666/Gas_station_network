@@ -8,12 +8,6 @@ namespace Gas_station_network.DataBase.Storage;
 interface IPersonStorage
 {
     /// <summary>
-    /// Добавить пользователя.
-    /// </summary>
-    /// <param name="person">Пользователь.</param>
-    public void AddPerson(Person person);
-
-    /// <summary>
     /// Проверка существования пользователя.
     /// </summary>
     /// <param name="login">Логин.</param>
