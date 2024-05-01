@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Максим\ваня\Gas_station_network\obj\Debug\net7.0-windows\
+C:\Users\Admin\source\repos\Shibanov\Gas_station_network\Gas_station_network\obj\Debug\net7.0-windows\
 Gas_station_network
 none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
-C:\Users\Максим\ваня\Gas_station_network\App.xaml
+C:\Users\Admin\source\repos\Shibanov\Gas_station_network\Gas_station_network\App.xaml
 6-891951624
 
-12-541319450
-214-709826722
+19-1780745011
+2141908855617
 Styles\ButtonTheme.xaml;Styles\Text.xaml;Styles\TextBoxTheme.xaml;View\MainWindow.xaml;View\SelectionSheetWindow.xaml;View\TechnicianWindow.xaml;
 
-True
+False
 

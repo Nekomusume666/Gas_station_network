@@ -3,13 +3,18 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Gas_station_network"
+        xmlns:local="clr-namespace:Gas_station_network" 
+        xmlns:viewmodel="clr-namespace:Gas_station_network.ViewModel"
         mc:Ignorable="d"
         Title="Сеть АЗС" Height="600" Width="1000"
         WindowStyle="SingleBorderWindow"
         ResizeMode="NoResize"
         WindowStartupLocation="CenterScreen">
-        
+
+    <Window.DataContext>
+        <viewmodel:MainViewModel/>
+    </Window.DataContext>
+    
     <Grid>
         <Border Background="#272537"/>
 
@@ -62,6 +67,7 @@
                             Height="40"
                             Content="Войти"
                             Margin="0 0 0 100"
+                            Command="{Binding Enter}"
                             Style="{StaticResource EnterButton}"/>
 
                 </Grid>
