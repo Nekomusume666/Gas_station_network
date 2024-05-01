@@ -9,6 +9,7 @@ class Column
 {
     [Key]
     public int ID { get; set; }
+
     /// <summary>
     /// Номер колонки.
     /// </summary>
@@ -30,13 +31,19 @@ class Column
     public int VolumeFuel { get; set; }
 
     /// <summary>
+    /// Цена топлива.
+    /// </summary>
+    public double PriceFuel { get; set; }
+
+    /// <summary>
     /// Конструктор.
     /// </summary>
     /// <param name="number">Номер.</param>
     /// <param name="isActive">Рабочее состояние.</param>
     /// <param name="nameFuel">Название топлива.</param>
     /// <param name="volumeFuel">Количество топлива.</param>
-    public Column(int number, bool isActive, string nameFuel, int volumeFuel)
+    /// <param name="priceFuel">Цена топлива.</param>
+    public Column(int number, bool isActive, string nameFuel, int volumeFuel, double priceFuel)
     {
         Number = number;
         IsActive = isActive;

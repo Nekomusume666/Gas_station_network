@@ -38,6 +38,19 @@ class PersonStorage : IPersonStorage
     }
 
     /// <summary>
+    /// Проверка существования пользователя.
+    /// </summary>
+    /// <param name="login">Логин.</param>
+    /// <returns>Результат проверки.</returns>
+    public bool CheckPerson(string login)
+    {
+        using (var context = new PersonDbContext())
+        {
+            return context.Persons.Any(p => p.Login == login);
+        }
+    }
+
+    /// <summary>
     /// Проверка логина на уникальность.
     /// </summary>
     /// <param name="login">Логин.</param>
@@ -47,6 +60,21 @@ class PersonStorage : IPersonStorage
         using (var context = new PersonDbContext())
         {
             return !context.Persons.Any(p => p.Login == login);
+        }
+    }
+
+    /// <summary>
+    /// Получение роли по указанному логину.
+    /// </summary>
+    /// <param name="login">Логин.</param>
+    /// <returns>Роль.</returns>
+    public Role TakeRoleByLogin(string login)
+    {
+        using (var context = new PersonDbContext())
+        {
+            var person = context.Persons.FirstOrDefault(p => p.Login == login);
+
+            return person == null ? Role.None : person.UserRole;
         }
     }
 }

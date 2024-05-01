@@ -22,9 +22,23 @@ interface IPersonStorage
     public bool CheckPerson(string login, string password);
 
     /// <summary>
+    /// Проверка существования пользователя.
+    /// </summary>
+    /// <param name="login">Логин.</param>
+    /// <returns>Результат проверки.</returns>
+    public bool CheckPerson(string login);
+
+    /// <summary>
     /// Проверка логина на уникальность.
     /// </summary>
     /// <param name="login">Логин.</param>
     /// <returns>Результат проверки.</returns>
     public bool CheckUniqueLogin(string login);
+
+    /// <summary>
+    /// Получение роли по указанному логину.
+    /// </summary>
+    /// <param name="login">Логин.</param>
+    /// <returns>Роль.</returns>
+    public Role TakeRoleByLogin(string login);
 }

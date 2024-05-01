@@ -29,14 +29,14 @@ class GasStation
         Columns = new List<Column>();
 
         // заглушка (пока так :) )
-        AddColumn(1, true, "A95", 100);
-        AddColumn(1, true, "A98", 100);
-        AddColumn(1, true, "A100", 100);
+        AddColumn(1, true, "A95", 100, 34.5);
+        AddColumn(1, true, "A98", 100, 43.56);
+        AddColumn(1, true, "A100", 100, 56.34);
     }
 
-    public void AddColumn(int number, bool isActive, string name, int volume)
+    public void AddColumn(int number, bool isActive, string name, int volume, double price)
     {
-        Column column = new Column(number, isActive, name, volume);
+        Column column = new Column(number, isActive, name, volume, price);
 
         Columns.Add(column);
     }

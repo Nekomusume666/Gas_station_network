@@ -23,5 +23,10 @@ public enum Role
     /// <summary>
     /// Оператор.
     /// </summary>
-    Operator
+    Operator, 
+    
+    /// <summary>
+    /// Отсутствие роли.
+    /// </summary>
+    None
 }
