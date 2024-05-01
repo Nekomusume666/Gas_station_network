@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Максим\\ваня\\Gas_station_network\\Gas_station_network.csproj": {}
+    "C:\\Users\\Admin\\source\\repos\\Shibanov\\Gas_station_network\\Gas_station_network\\Gas_station_network.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Максим\\ваня\\Gas_station_network\\Gas_station_network.csproj": {
+    "C:\\Users\\Admin\\source\\repos\\Shibanov\\Gas_station_network\\Gas_station_network\\Gas_station_network.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Максим\\ваня\\Gas_station_network\\Gas_station_network.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\Shibanov\\Gas_station_network\\Gas_station_network\\Gas_station_network.csproj",
         "projectName": "Gas_station_network",
-        "projectPath": "C:\\Users\\Максим\\ваня\\Gas_station_network\\Gas_station_network.csproj",
-        "packagesPath": "C:\\Users\\Максим\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Максим\\ваня\\Gas_station_network\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\source\\repos\\Shibanov\\Gas_station_network\\Gas_station_network\\Gas_station_network.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\source\\repos\\Shibanov\\Gas_station_network\\Gas_station_network\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Максим\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -74,7 +79,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }
