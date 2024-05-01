@@ -14,11 +14,10 @@ interface ICommonStorage
     public string[] TakeAdressGasStations();
 
     /// <summary>
-    /// Получение колонок АЗС по адресу.
+    /// Получение колонок АЗС.
     /// </summary>
-    /// <param name="adress">Адрес.</param>
     /// <returns>Структура, содержащая информацию о колонках.</returns>
-    public List<Column> TakeColumnGasStationByAdress(string adress);
+    public List<Column> TakeColumnGasStationByAdress(GasStation gasStation);
 
     /// <summary>
     /// Проверка существования АЗС с таким адресом.
@@ -26,4 +25,11 @@ interface ICommonStorage
     /// <param name="adress">Адрес.</param>
     /// <returns>Результат проверки.</returns>
     public bool CheckGasStationByAdress(string adress);
+
+    /// <summary>
+    /// Получение АЗС по адресу.
+    /// </summary>
+    /// <param name="adress">Адрес.</param>
+    /// <returns>Информация об АЗС.</returns>
+    public GasStation? TakeGasStationByAdress(string adress);
 }

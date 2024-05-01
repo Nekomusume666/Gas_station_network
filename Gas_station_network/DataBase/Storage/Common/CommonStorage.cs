@@ -1,6 +1,4 @@
 ﻿using Gas_station_network.Model;
-using System;
-using System.Net;
 
 namespace Gas_station_network.DataBase.Storage.Common;
 
@@ -35,34 +33,19 @@ internal class CommonStorage : ICommonStorage
     }
 
     /// <summary>
-    /// Получение колонок АЗС по адресу.
+    /// Получение колонок АЗС.
     /// </summary>
-    /// <param name="adress">Адрес.</param>
     /// <returns>Структура, содержащая информацию о колонках.</returns>
-    public List<Column> TakeColumnGasStationByAdress(string adress)
+    public List<Column> TakeColumnGasStationByAdress(GasStation gasStation)
     {
-        var gasStations = TakeAdressGasStations();
-
-        List<Column> columns = new List<Column>();
-
-        foreach (var gs in gasStations)
-        {
-            var listColumns = TakeGasStationByAdress(adress);
-
-            foreach (var column in listColumns.Columns)
-            {
-                columns.Add(column);
-            }
-        }
-
-        return columns;
+        return gasStation.Columns;
     }
 
-    private GasStation TakeGasStationByAdress(string adress)
+    public GasStation? TakeGasStationByAdress(string adress)
     {
         using (var context = new GasStationDbContext())
         {
-            return context.GasStations.Where(gs => gs.Address == adress).First();
+            return context.GasStations.Where(gs => gs.Address == adress).FirstOrDefault();
         }
     }
 }
