@@ -1,4 +1,5 @@
-﻿using Gas_station_network.ViewModel;
+﻿using Gas_station_network.DataBase.Storage;
+using Gas_station_network.ViewModel;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -17,10 +18,11 @@ namespace Gas_station_network
     /// </summary>
     public partial class MainWindow : Window
     {
-        
+        private readonly PersonStorage PersonStorage = new PersonStorage();
+
         public MainWindow()
         {
-            
+            //PersonStorage.AddPerson(new Model.Person("admin", "admin", Model.Role.Administrator));
         }
 
     }

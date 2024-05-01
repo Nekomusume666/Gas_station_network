@@ -3,36 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\Shibanov\\Gas_station_network\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0A064459-DCE8-4616-B69C-0D468969D075}|Gas_station_network\\Gas_station_network.csproj|c:\\users\\admin\\source\\repos\\shibanov\\gas_station_network\\gas_station_network\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A064459-DCE8-4616-B69C-0D468969D075}|Gas_station_network\\Gas_station_network.csproj|solutionrelative:gas_station_network\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A064459-DCE8-4616-B69C-0D468969D075}|Gas_station_network\\Gas_station_network.csproj|c:\\users\\admin\\source\\repos\\shibanov\\gas_station_network\\gas_station_network\\database\\gasstationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A064459-DCE8-4616-B69C-0D468969D075}|Gas_station_network\\Gas_station_network.csproj|solutionrelative:gas_station_network\\database\\gasstationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A064459-DCE8-4616-B69C-0D468969D075}|Gas_station_network\\Gas_station_network.csproj|c:\\users\\admin\\source\\repos\\shibanov\\gas_station_network\\gas_station_network\\database\\storage\\personstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A064459-DCE8-4616-B69C-0D468969D075}|Gas_station_network\\Gas_station_network.csproj|solutionrelative:gas_station_network\\database\\storage\\personstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A064459-DCE8-4616-B69C-0D468969D075}|Gas_station_network\\Gas_station_network.csproj|c:\\users\\admin\\source\\repos\\shibanov\\gas_station_network\\gas_station_network\\model\\gasstation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A064459-DCE8-4616-B69C-0D468969D075}|Gas_station_network\\Gas_station_network.csproj|solutionrelative:gas_station_network\\model\\gasstation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A064459-DCE8-4616-B69C-0D468969D075}|Gas_station_network\\Gas_station_network.csproj|c:\\users\\admin\\source\\repos\\shibanov\\gas_station_network\\gas_station_network\\database\\persondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A064459-DCE8-4616-B69C-0D468969D075}|Gas_station_network\\Gas_station_network.csproj|solutionrelative:gas_station_network\\database\\persondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A064459-DCE8-4616-B69C-0D468969D075}|Gas_station_network\\Gas_station_network.csproj|c:\\users\\admin\\source\\repos\\shibanov\\gas_station_network\\gas_station_network\\migrations\\20240501091310_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A064459-DCE8-4616-B69C-0D468969D075}|Gas_station_network\\Gas_station_network.csproj|solutionrelative:gas_station_network\\migrations\\20240501091310_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A064459-DCE8-4616-B69C-0D468969D075}|Gas_station_network\\Gas_station_network.csproj|c:\\users\\admin\\source\\repos\\shibanov\\gas_station_network\\gas_station_network\\core\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A064459-DCE8-4616-B69C-0D468969D075}|Gas_station_network\\Gas_station_network.csproj|solutionrelative:gas_station_network\\core\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A064459-DCE8-4616-B69C-0D468969D075}|Gas_station_network\\Gas_station_network.csproj|c:\\users\\admin\\source\\repos\\shibanov\\gas_station_network\\gas_station_network\\model\\column.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A064459-DCE8-4616-B69C-0D468969D075}|Gas_station_network\\Gas_station_network.csproj|solutionrelative:gas_station_network\\model\\column.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A064459-DCE8-4616-B69C-0D468969D075}|Gas_station_network\\Gas_station_network.csproj|c:\\users\\admin\\source\\repos\\shibanov\\gas_station_network\\gas_station_network\\core\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A064459-DCE8-4616-B69C-0D468969D075}|Gas_station_network\\Gas_station_network.csproj|solutionrelative:gas_station_network\\core\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A064459-DCE8-4616-B69C-0D468969D075}|Gas_station_network\\Gas_station_network.csproj|c:\\users\\admin\\source\\repos\\shibanov\\gas_station_network\\gas_station_network\\model\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A064459-DCE8-4616-B69C-0D468969D075}|Gas_station_network\\Gas_station_network.csproj|solutionrelative:gas_station_network\\model\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A064459-DCE8-4616-B69C-0D468969D075}|Gas_station_network\\Gas_station_network.csproj|c:\\users\\admin\\source\\repos\\shibanov\\gas_station_network\\gas_station_network\\styles\\textboxtheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0A064459-DCE8-4616-B69C-0D468969D075}|Gas_station_network\\Gas_station_network.csproj|solutionrelative:gas_station_network\\styles\\textboxtheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A064459-DCE8-4616-B69C-0D468969D075}|Gas_station_network\\Gas_station_network.csproj|c:\\users\\admin\\source\\repos\\shibanov\\gas_station_network\\gas_station_network\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{0A064459-DCE8-4616-B69C-0D468969D075}|Gas_station_network\\Gas_station_network.csproj|solutionrelative:gas_station_network\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A064459-DCE8-4616-B69C-0D468969D075}|Gas_station_network\\Gas_station_network.csproj|c:\\users\\admin\\source\\repos\\shibanov\\gas_station_network\\gas_station_network\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A064459-DCE8-4616-B69C-0D468969D075}|Gas_station_network\\Gas_station_network.csproj|solutionrelative:gas_station_network\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A064459-DCE8-4616-B69C-0D468969D075}|Gas_station_network\\Gas_station_network.csproj|c:\\users\\admin\\source\\repos\\shibanov\\gas_station_network\\gas_station_network\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A064459-DCE8-4616-B69C-0D468969D075}|Gas_station_network\\Gas_station_network.csproj|solutionrelative:gas_station_network\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1163,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,98 +54,84 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Shibanov\\Gas_station_network\\Gas_station_network\\Core\\Login.cs",
-              "RelativeDocumentMoniker": "Gas_station_network\\Core\\Login.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Shibanov\\Gas_station_network\\Gas_station_network\\Core\\Login.cs",
-              "RelativeToolTip": "Gas_station_network\\Core\\Login.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "DocumentIndex": 2,
+              "Title": "20240501091310_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Shibanov\\Gas_station_network\\Gas_station_network\\Migrations\\20240501091310_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Gas_station_network\\Migrations\\20240501091310_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Shibanov\\Gas_station_network\\Gas_station_network\\Migrations\\20240501091310_InitialCreate.cs",
+              "RelativeToolTip": "Gas_station_network\\Migrations\\20240501091310_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T08:36:13.967Z",
+              "WhenOpened": "2024-05-01T09:37:47.58Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PersonStorage.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Shibanov\\Gas_station_network\\Gas_station_network\\DataBase\\Storage\\PersonStorage.cs",
-              "RelativeDocumentMoniker": "Gas_station_network\\DataBase\\Storage\\PersonStorage.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Shibanov\\Gas_station_network\\Gas_station_network\\DataBase\\Storage\\PersonStorage.cs",
-              "RelativeToolTip": "Gas_station_network\\DataBase\\Storage\\PersonStorage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAKAAAA",
+              "Title": "GasStation.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Shibanov\\Gas_station_network\\Gas_station_network\\Model\\GasStation.cs",
+              "RelativeDocumentMoniker": "Gas_station_network\\Model\\GasStation.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Shibanov\\Gas_station_network\\Gas_station_network\\Model\\GasStation.cs",
+              "RelativeToolTip": "Gas_station_network\\Model\\GasStation.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAkwAoAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T08:35:07.923Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PersonDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Shibanov\\Gas_station_network\\Gas_station_network\\DataBase\\PersonDbContext.cs",
-              "RelativeDocumentMoniker": "Gas_station_network\\DataBase\\PersonDbContext.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Shibanov\\Gas_station_network\\Gas_station_network\\DataBase\\PersonDbContext.cs",
-              "RelativeToolTip": "Gas_station_network\\DataBase\\PersonDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T08:34:55.508Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Person.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Shibanov\\Gas_station_network\\Gas_station_network\\Model\\Person.cs",
-              "RelativeDocumentMoniker": "Gas_station_network\\Model\\Person.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Shibanov\\Gas_station_network\\Gas_station_network\\Model\\Person.cs",
-              "RelativeToolTip": "Gas_station_network\\Model\\Person.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T08:34:46.868Z",
+              "WhenOpened": "2024-05-01T09:36:05.617Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "RelayCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Shibanov\\Gas_station_network\\Gas_station_network\\Core\\RelayCommand.cs",
-              "RelativeDocumentMoniker": "Gas_station_network\\Core\\RelayCommand.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Shibanov\\Gas_station_network\\Gas_station_network\\Core\\RelayCommand.cs",
-              "RelativeToolTip": "Gas_station_network\\Core\\RelayCommand.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Title": "Column.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Shibanov\\Gas_station_network\\Gas_station_network\\Model\\Column.cs",
+              "RelativeDocumentMoniker": "Gas_station_network\\Model\\Column.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Shibanov\\Gas_station_network\\Gas_station_network\\Model\\Column.cs",
+              "RelativeToolTip": "Gas_station_network\\Model\\Column.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAAkAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T08:27:11.333Z",
+              "WhenOpened": "2024-05-01T09:34:13.054Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Shibanov\\Gas_station_network\\Gas_station_network\\ViewModel\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "Gas_station_network\\ViewModel\\MainViewModel.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Shibanov\\Gas_station_network\\Gas_station_network\\ViewModel\\MainViewModel.cs*",
-              "RelativeToolTip": "Gas_station_network\\ViewModel\\MainViewModel.cs*",
-              "ViewState": "AQIAABsAAAAAAAAAAAAlwC4AAABOAAAA",
+              "Title": "GasStationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Shibanov\\Gas_station_network\\Gas_station_network\\DataBase\\GasStationDbContext.cs",
+              "RelativeDocumentMoniker": "Gas_station_network\\DataBase\\GasStationDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Shibanov\\Gas_station_network\\Gas_station_network\\DataBase\\GasStationDbContext.cs",
+              "RelativeToolTip": "Gas_station_network\\DataBase\\GasStationDbContext.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABEAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T08:21:27.712Z",
+              "WhenOpened": "2024-05-01T09:32:30.614Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Shibanov\\Gas_station_network\\Gas_station_network\\View\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Gas_station_network\\View\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Shibanov\\Gas_station_network\\Gas_station_network\\View\\MainWindow.xaml.cs",
-              "RelativeToolTip": "Gas_station_network\\View\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T08:11:57.391Z",
+              "DocumentIndex": 4,
+              "Title": "TextBoxTheme.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Shibanov\\Gas_station_network\\Gas_station_network\\Styles\\TextBoxTheme.xaml",
+              "RelativeDocumentMoniker": "Gas_station_network\\Styles\\TextBoxTheme.xaml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Shibanov\\Gas_station_network\\Gas_station_network\\Styles\\TextBoxTheme.xaml",
+              "RelativeToolTip": "Gas_station_network\\Styles\\TextBoxTheme.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-01T09:28:26.645Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Shibanov\\Gas_station_network\\Gas_station_network\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "Gas_station_network\\ViewModel\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Shibanov\\Gas_station_network\\Gas_station_network\\ViewModel\\MainViewModel.cs",
+              "RelativeToolTip": "Gas_station_network\\ViewModel\\MainViewModel.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAwwDkAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T09:25:49.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Shibanov\\Gas_station_network\\Gas_station_network\\View\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Gas_station_network\\View\\MainWindow.xaml",

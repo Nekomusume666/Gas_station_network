@@ -1,10 +1,14 @@
-﻿namespace Gas_station_network.Model;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Gas_station_network.Model;
 
 /// <summary>
 /// Класс, характеризующий АЗС.
 /// </summary>
 class GasStation
 {
+    [Key]
+    public int ID { get; set; }
     /// <summary>
     /// Адрес.
     /// </summary>

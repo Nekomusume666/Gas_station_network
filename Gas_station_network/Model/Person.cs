@@ -1,4 +1,6 @@
 ﻿using Gas_station_network.DataBase;
+using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
 
 namespace Gas_station_network.Model;
 
@@ -10,6 +12,7 @@ public class Person
     /// <summary>
     /// Логин.
     /// </summary>
+    [Key]
     public string Login { get; set; }
 
     /// <summary>

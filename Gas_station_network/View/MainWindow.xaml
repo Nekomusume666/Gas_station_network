@@ -45,6 +45,7 @@
                              VerticalAlignment="Center"
                              HorizontalAlignment="Center"
                              Margin="5"
+                             Text="{Binding Username,Mode=TwoWay}"
                              Style="{StaticResource LoginTextBox}"/>
 
                     <TextBox Grid.Row="2"
@@ -52,6 +53,7 @@
                              VerticalAlignment="Center"
                              HorizontalAlignment="Center"
                              Margin="5"
+                             Text="{Binding Password,Mode=TwoWay}"
                              Style="{StaticResource PasswordTextBox}"/>
 
                     <Button Grid.Row="3"

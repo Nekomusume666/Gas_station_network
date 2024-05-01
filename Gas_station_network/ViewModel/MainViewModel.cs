@@ -34,15 +34,30 @@ namespace Gas_station_network.ViewModel
         private string _username;
         private string _password;
 
-        public string Username { get; set; }
+        public string Username {
+            get { return _username; }
+            set 
+            {
+                _username = value;
+                OnPropertyChanged("Username");
+            }
+        }
 
-        public string Password { get; set; }
+        public string Password
+        {
+            get { return _password; }
+            set
+            {
+                _password = value;
+                OnPropertyChanged("Password");
+            }
+        }
 
         public ICommand Enter => new RelayCommand((obj) =>
                                               {
                                                   if (PersonStorage.CheckPerson(Username, Password))
                                                   {
-
+                                                      MessageBox.Show("xxxxxxxxxxxxxxxx");
                                                   }
                                                   else MessageBox.Show("111111");
                                               });
