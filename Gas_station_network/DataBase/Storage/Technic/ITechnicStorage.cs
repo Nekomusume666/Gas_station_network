@@ -3,30 +3,19 @@
 namespace Gas_station_network.DataBase.Storage.Technic;
 
 /// <summary>
-/// Интерфейс, предоставляющий функционал необходимый для техика.
+/// Интерфейс, представляющий функционал техника.
 /// </summary>
 interface ITechnicStorage
 {
     /// <summary>
-    /// Выключение колонки по номеру.
+    /// Выключение колонки.
     /// </summary>
-    /// <param name="adress">Адрес.</param>
-    /// <param name="numberColumn">Номер колонки.</param>
-    /// <returns>Результат выполнения операции.</returns>
-    public bool OffColumn(string adress, int numberColumn);
+    /// <param name="column">Колонка.</param>
+    public void OffColumn(Column column);
 
     /// <summary>
-    /// Включение колонки по номеру.
+    /// Включение колонки.
     /// </summary>
-    /// <param name="adress">Адрес.</param>
-    /// <param name="numberColumn">Номер колонки.</param>
-    /// <returns>Результат выполнения операции.</returns>
-    public bool OnColumn(string adress, int numberColumn);
-
-    /// <summary>
-    /// Получение колонок по адресу.
-    /// </summary>
-    /// <param name="adress">Адрес.</param>
-    /// <returns>Информация о колонках.</returns>
-    public List<Column>? GetColumnsByAdress(string adress);
+    /// <param name="column">Колонка.</param>
+    public void OnColumn(Column column);
 }

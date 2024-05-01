@@ -8,12 +8,6 @@ namespace Gas_station_network.DataBase.Storage.Admin;
 interface IAdminStorage 
 {
     /// <summary>
-    /// Добавить сотрудника.
-    /// </summary>
-    /// <param name="person">Сотрудник.</param>
-    public void AddPerson(Person person);
-
-    /// <summary>
     /// Удалить сотрудника по логину.
     /// </summary>
     /// <param name="login">Логин.</param>

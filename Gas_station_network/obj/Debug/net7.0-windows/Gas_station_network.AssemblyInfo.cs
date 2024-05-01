@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gas_station_network")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e85cd7bf1dc7d9dee83b4a87451c8a16cccffca6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c549c1e6b0f5c1a29d34bffc2e58ddd2ed86eae6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gas_station_network")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gas_station_network")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
