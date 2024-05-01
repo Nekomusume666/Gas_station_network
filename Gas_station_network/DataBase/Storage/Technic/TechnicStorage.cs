@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Diagnostics;
+﻿using Gas_station_network.Model;
+using Microsoft.EntityFrameworkCore.Diagnostics;
 
 namespace Gas_station_network.DataBase.Storage.Technic;
 
@@ -17,14 +18,14 @@ internal class TechnicStorage : ITechnicStorage
     {
         using (var context = new GasStationDbContext())
         {
-            var gasStation = context.GasStations.Where(gs => gs.Address == adress).FirstOrDefault();
+            var columns = GetColumnsByAdress(adress);
 
-            if (gasStation == null)
+            if (columns == null)
             {
                 return false;
             }
 
-            var column = gasStation.Columns.Where(c => c.Number == numberColumn).FirstOrDefault();
+            var column = columns.Where(c => c.Number == numberColumn).FirstOrDefault();
 
             if (column == null)
             {
@@ -33,9 +34,9 @@ internal class TechnicStorage : ITechnicStorage
 
             column.IsActive = false;
             context.SaveChanges();
-
-            return true;
         }
+
+        return true;
     }
 
     /// <summary>
@@ -48,14 +49,14 @@ internal class TechnicStorage : ITechnicStorage
     {
         using (var context = new GasStationDbContext())
         {
-            var gasStation = context.GasStations.Where(gs => gs.Address == adress).FirstOrDefault();
+            var columns = GetColumnsByAdress(adress);
 
-            if (gasStation == null)
+            if (columns == null)
             {
                 return false;
             }
 
-            var column = gasStation.Columns.Where(c => c.Number == numberColumn).FirstOrDefault();
+            var column = columns.Where(c => c.Number == numberColumn).FirstOrDefault();
 
             if (column == null)
             {
@@ -64,10 +65,30 @@ internal class TechnicStorage : ITechnicStorage
 
             column.IsActive = true;
             context.SaveChanges();
-
-            return true;
         }
+
+        return true;
     }
 
-    // Плохая реализация - оставляю до разбирательства по функционалу.
+    /// <summary>
+    /// Получение колонок по адресу.
+    /// </summary>
+    /// <param name="adress">Адрес.</param>
+    /// <returns>Информация о колонках.</returns>
+    public List<Column>? GetColumnsByAdress(string adress)
+    {
+        using (var context = new GasStationDbContext())
+        {
+            var gasStation = context.GasStations.Where(gs => gs.Address == adress).FirstOrDefault();
+
+            if (gasStation == null)
+            {
+                return null;
+            }
+
+            return gasStation.Columns;
+        }
+
+        // Плохая реализация - оставляю до разбирательства по функционалу.
+    }
 }
