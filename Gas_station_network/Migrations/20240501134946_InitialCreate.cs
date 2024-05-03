@@ -16,13 +16,15 @@ namespace Gasstationnetwork.Migrations
                 {
                     Login = table.Column<string>(type: "TEXT", nullable: false),
                     Password = table.Column<string>(type: "TEXT", nullable: false),
+                    FirstName = table.Column<string>(type: "TEXT", nullable: false),
+                    LastName = table.Column<string>(type: "TEXT", nullable: false),
+                    Phone = table.Column<string>(type: "TEXT", nullable: false),
                     UserRole = table.Column<int>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Persons", x => x.Login);
                 });
-
 
             migrationBuilder.CreateTable(
                 name: "GasStations",
@@ -47,6 +49,7 @@ namespace Gasstationnetwork.Migrations
                     IsActive = table.Column<bool>(type: "INTEGER", nullable: false),
                     NameFuel = table.Column<string>(type: "TEXT", nullable: false),
                     VolumeFuel = table.Column<int>(type: "INTEGER", nullable: false),
+                    PriceFuel = table.Column<double>(type: "REAL", nullable: false),
                     GasStationID = table.Column<int>(type: "INTEGER", nullable: true)
                 },
                 constraints: table =>
@@ -70,7 +73,6 @@ namespace Gasstationnetwork.Migrations
         {
             migrationBuilder.DropTable(
                 name: "Persons");
-
 
             migrationBuilder.DropTable(
                 name: "Column");

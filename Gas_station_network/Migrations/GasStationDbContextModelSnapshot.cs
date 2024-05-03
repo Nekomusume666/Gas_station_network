@@ -36,6 +36,9 @@ namespace Gasstationnetwork.Migrations
                     b.Property<int>("Number")
                         .HasColumnType("INTEGER");
 
+                    b.Property<double>("PriceFuel")
+                        .HasColumnType("REAL");
+
                     b.Property<int>("VolumeFuel")
                         .HasColumnType("INTEGER");
 
